@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>spa website</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="fontawesome-free-6.7.2-web/fontawesome-free-6.7.2-web/css/all.min.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="#home" id="navbar__logo">ISB</a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="#home" class="navbar__links" id="home-page">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#about" class="navbar__links" id="about-page">About</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#services" class="navbar__links" id="services-page">Services</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#contact" class="navbar__links" id="contact-page">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero" id="home">
+            <div class="hero__container">
+                <h1 class="hero__heading">Choose your<span><br>treat.</br></span></h1>
+                <p class="hero__description">Unlimited Experience</p>
+                <button class="main__btn"><a href="#">Explore</a></button>
+            </div>
+        </div>
+        <div class="main" id="about">
+            <div class="main__container">
+                <div class="main__img--container">
+                    <img src="images/expert.2.jpg" alt="">
+                </div>
+                <div class="main__content">
+                    <h1>what do you want?</h1>
+                    <h2>we help improve your body appearance:</h2>
+                    <p>we deal on all body aesthetics and<br>
+                        organic products made by natural ingredients to 
+                        improve the looks of<br> your skin.</br>
+                    </p>
+                    <button class="main__btn"><a href="+2348023233252">Call Us</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="services" id="services">
+            <h1>Our Services</h1>
+            <div class="services__wrapper">
+                <div class="services__card">
+                    <img src="images/pexels-midtrack-14996840.jpg" alt="">
+                    <h2>Customers Comfort</h2>
+                    <p>Soothing Facials</p>
+                    <div class="services__btn"><button>IvySpark</button></div>
+                </div>
+                <div class="services__card">
+                    <img src="images/katherine-hanlon-83RTpUBjyYY-unsplash.jpg" alt="">
+                    <h2>Are You Ready?</h2>
+                    <p>Exquisite Massage</p>
+                    <div class="services__btn"><button>IvySpark</button></div>
+                </div>
+                <div class="services__card">
+                    <img src="images/rune-enstad-qeuJczNo54w-unsplash.jpg" alt="">
+                    <h2>Customers Comfort</h2>
+                    <p>All Things Pedicure</p>
+                    <div class="services__btn"><button>IvySpark</button></div>
+                </div>
+                <div class="services__card">
+                    <img src="images/istockphoto-2185203181-612x612.webp" alt="">
+                    <h2>Customers Comfort</h2>
+                    <p>All Things Manicure</p>
+                    <div class="services__btn"><button>IvySpark</button></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="contact" id="contact">
+        <div class="contact-container">
+            <h1>Contact IvySpark Beauty</h1>
+            <p>We'd love to hear from you. Please fill out the form below.</p>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" placeholder="Your name..." required />
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required />
+                </div>
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+                <p id="formMessage" class="form-message"></p>
+            </form>
+        </div>
+        </div>
+
+
+                <footer>
+            <div class="footer-col">
+                <h3>Massage</h3>
+                <li>general body</li>
+                <li>swedish</li>
+                <li>deep tissue</li>
+                <li>oil</li>
+            </div>
+            <div class="footer-col">
+                <h3>Pedicure</h3>
+                <li>classic</li>
+                <li>french</li>
+                <li>spa</li>
+                <li>chocolate</li>
+            </div>
+            <div class="footer-col">
+                <h3>Manicure</h3>
+                <li>acrylic</li>
+                <li>gel polish</li>
+                <li>artificials</li>
+                <li>classic</li>
+            </div>
+            <div class="footer-col">
+                <h3>Facials</h3>
+                <li>regular</li>
+                <li>classic</li>
+                <li>male facials</li>
+                <li>waxing</li>
+            </div>
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>You can trust us.We only send promo offers,</p>
+            </div>
+            <div class="copyright">
+                <p>Copyright &copy; 2021 All right reserved | This template is made by vinchi</p>
+                <div class="pro-links">
+                <i class="fa-brands fa-facebook" ></i>
+                <i class="fa-brands fa-instagram" ></i>
+
+                </div>
+            </div>
+        </footer>
+
+  
+
+
+        <script src="emmy.js"></script>
+    </body>
+</html>
